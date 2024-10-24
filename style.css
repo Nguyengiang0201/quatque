@@ -16,6 +16,7 @@
 h2,h3{
     color:#555555;
     align-items: center;
+
 }
 .post-box a{
     text-decoration: none;
@@ -25,6 +26,7 @@ h2,h3{
     padding:0;
     width:256px;
     overflow: hidden;
+  
 }
 .image-container img{
     height:159px;
@@ -41,6 +43,7 @@ h2,h3{
     padding:0;
     width:101px;
     overflow: hidden;
+    
 }
 .image-container1 img{
     height:68px;
@@ -61,6 +64,9 @@ h2,h3{
     margin-bottom: 25px;
     width: 300px;
 }
+.blq{
+    margin-left: 2%;
+}
 @font-face {
     font-family: 'NittiTypewriter';
     src: url(../fonts/NittiTypewriter-21d2137501e11e71a7bc1d5f496a6b7f.otf);
@@ -73,7 +79,24 @@ h1{
     font-family: beaululo;
 }
 @media (max-width:1000px) {
-    .container{ flex-direction: column } 
+    .container{ 
+        flex-direction: column;
+        margin: 0; 
+     } 
+    .columnRight{margin: 0;}
+    
+    .image-container1 img{
+        padding-left: 15%;
+    }
+    .image-container{
+        width:95%;
+    }
+    .image-container img{
+        padding-left: 2%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 .video-container{
     position: relative;
@@ -89,7 +112,4 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
-}
-.blq{
-    padding:2%;
 }
