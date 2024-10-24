@@ -73,7 +73,7 @@ h1{
     font-family: beaululo;
 }
 @media (max-width:1000px) {
-    .div{ flex-direction: column } 
+    .container{ flex-direction: column } 
 }
 .video-container{
     position: relative;
