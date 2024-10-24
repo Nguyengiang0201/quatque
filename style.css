@@ -18,6 +18,9 @@ h2,h3{
     align-items: center;
 
 }
+h3:hover{
+    color:#3c5e2c;
+}
 .post-box a{
     text-decoration: none;
     color:#555555;
